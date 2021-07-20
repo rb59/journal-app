@@ -49,10 +49,13 @@
 }
 
 .auth__alert-error {
-    background-color: lighten($color: red, $amount: 40);
-    color: white;
+    align-items: center;
+    background-color: lighten($color: red, $amount: 35);
+    border-left: 4px solid red;
+    color: $dark-grey;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
-    padding: 5px;
+    min-height: 40px;
+    padding: 5px 10px 5px 10px;
 }

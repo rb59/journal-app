@@ -18,6 +18,7 @@ export const NoteScreen = () => {
                 ></textarea>
                 <div className="notes__image" >
                     <img 
+                        alt="note"
                         src="https://st.depositphotos.com/1679308/1622/i/600/depositphotos_16225575-stock-photo-landscape-of-croatian-nature.jpg"
                     />
                 </div>
