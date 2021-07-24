@@ -2,6 +2,8 @@
 
 This project was created using React, React Redux and Firebase. It is a simple journal to write everything you want about your day with the possibility of uploading images to your notes
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/52ed8365-57c6-4bc9-abf4-c1e97f2be69d/deploy-status)](https://app.netlify.com/sites/rb59-journal-app/deploys)
+
 ## Installation
 
 `npm install`
