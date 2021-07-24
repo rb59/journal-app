@@ -7,29 +7,36 @@
 .notes__appbar {
     align-items: center;
     background-color: $primary;
-    color:white;
+    color: white;
     display: flex;
     justify-content: space-between;
     padding: 10px 20px 10px 20px;
 }
 
 .notes__content {
+    background-color: lighten($color: $primary, $amount: 10);
     display: flex;
     flex-direction: column;
     height: 100%;
     padding: 20px;
 }
 
-.notes__title-input, .notes__textarea {
+.notes__title-input,
+.notes__textarea {
+    background-color: lighten($color: $primary, $amount: 10);
     border: none;
 
     &:focus {
         outline: none;
     }
+    &::placeholder {
+        color: darken($color: white, $amount: 15);
+    }
 }
 
 .notes__title-input {
-    color: $dark-grey;
+    color: white;
+    border-bottom: 0.5px solid darken($color: white, $amount: 15);
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -37,7 +44,7 @@
 
 .notes__textarea {
     // border: 1px solid black;
-    color: $dark-grey;
+    color: white;
     font-size: 20px;
     flex: 1 1 auto;
     resize: none;

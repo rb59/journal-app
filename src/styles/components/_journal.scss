@@ -30,7 +30,7 @@
     flex-direction: column;
     justify-content: center;
     margin-top: 30px;
-    transition: color .3s ease;
+    transition: color 0.3s ease;
     width: 100%;
 
     &:hover {
@@ -45,13 +45,17 @@
 }
 
 .journal__entry {
-    background-color: white;
+    background-color: lighten($color: $primary, $amount: 15);
     border-radius: 4px;
-    color: $dark-grey;
+    color: white;
     cursor: pointer;
     display: flex;
+    justify-content: space-between;
     margin-bottom: 10px;
     overflow: hidden;
+    &.selected {
+        background-color: $primary !important;
+    }
 }
 
 .journal__entry-picture {

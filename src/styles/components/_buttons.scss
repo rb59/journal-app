@@ -5,7 +5,7 @@
     cursor: pointer;
     font-size: 12px;
     padding: 7px 10px 7px 10px;
-    transition: color .3s ease;
+    transition: color 0.3s ease;
 
     &:focus {
         outline: none;
@@ -23,9 +23,18 @@
     &:hover {
         background-color: darken($color: $primary, $amount: 15);
     }
-    
+
     &:disabled {
         background-color: lighten($color: $primary, $amount: 20);
+    }
+}
+
+.btn-danger {
+    background-color: darken($color: red, $amount: 20);
+    transition: background-color 0.3s ease;
+    &:hover {
+        background-color: darken($color: red, $amount: 15);
+        color: white;
     }
 }
 
@@ -42,7 +51,7 @@
     border-radius: 2px;
     box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
 
-    transition: box-shadow .3s ease;
+    transition: box-shadow 0.3s ease;
 
     .google-icon-wrapper {
         position: absolute;

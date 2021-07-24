@@ -1,6 +1,7 @@
 @import './base/settings';
 @import './base/base';
 
+@import '~@sweetalert2/themes/dark/dark.scss';
 // componentes
 @import './components/auth';
 @import './components/buttons';
