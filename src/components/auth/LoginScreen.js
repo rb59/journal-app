@@ -57,12 +57,12 @@ export const LoginScreen = () => {
                     Login
                 </button>
                 <hr />
-                <div
-                    className="auth__social-networks"
-                    onClick={handleGoogleLogin}
-                >
+                <div className="auth__social-networks">
                     <p>Login with Google</p>
-                    <div className="google-btn">
+                    <div 
+                        className="google-btn" 
+                        onClick={handleGoogleLogin}
+                    >
                         <div className="google-icon-wrapper">
                             <img
                                 className="google-icon"
