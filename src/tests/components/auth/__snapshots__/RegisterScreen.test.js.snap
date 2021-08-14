@@ -18,7 +18,7 @@ exports[`Pruebas en RegisterScreen debe hacer match con el snapshot 1`] = `
       onChange={[Function]}
       placeholder="Name"
       type="text"
-      value="Ronald"
+      value=""
     />
     <input
       autoComplete="off"
@@ -27,7 +27,7 @@ exports[`Pruebas en RegisterScreen debe hacer match con el snapshot 1`] = `
       onChange={[Function]}
       placeholder="Email"
       type="email"
-      value="ronaldblanco0509@gmail.com"
+      value=""
     />
     <input
       className="auth__input mb-1"
@@ -35,7 +35,7 @@ exports[`Pruebas en RegisterScreen debe hacer match con el snapshot 1`] = `
       onChange={[Function]}
       placeholder="Password"
       type="password"
-      value="123456"
+      value=""
     />
     <input
       className="auth__input mb-1"
@@ -43,7 +43,7 @@ exports[`Pruebas en RegisterScreen debe hacer match con el snapshot 1`] = `
       onChange={[Function]}
       placeholder="Confirm password"
       type="password"
-      value="123456"
+      value=""
     />
     <button
       className="btn btn-primary btn-block mb-1"

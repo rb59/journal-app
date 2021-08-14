@@ -18,7 +18,7 @@ exports[`Pruebas en LoginScreen debe hacer match con el snapshot 1`] = `
       onChange={[Function]}
       placeholder="Email"
       type="text"
-      value="ronaldblanco0509@gmail.com"
+      value=""
     />
     <input
       className="auth__input mb-1"
@@ -26,7 +26,7 @@ exports[`Pruebas en LoginScreen debe hacer match con el snapshot 1`] = `
       onChange={[Function]}
       placeholder="Password"
       type="password"
-      value="123456"
+      value=""
     />
     <button
       className="btn btn-primary btn-block mb-1"

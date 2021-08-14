@@ -51,11 +51,23 @@ describe('Pruebas en LoginScreen', () => {
     });
 
     test('debe disparar el Login con argumentos', () => {
+        wrapper.find('input[name="email"]').simulate('change',{
+            target: {
+                name: 'email',
+                value: 'ronaldblanco0509@gmail.com',
+            }
+        })
+        wrapper.find('input[name="password"]').simulate('change',{
+            target: {
+                name: 'password',
+                value: '123456',
+            }
+        })
         wrapper.find('form').prop('onSubmit')({
             preventDefault() {},
         });
         expect(startLogin).toHaveBeenCalledWith(
-            'ronaldblanco0509@gmail.com',
+            'ronaldblanco0509@gmail.com',            
             '123456'
         );
     });

@@ -10,10 +10,10 @@ export const RegisterScreen = () => {
     const dispatch = useDispatch();
     const { msgError, loading } = useSelector(({ ui }) => ui);
     const [formValues, handleInputChange] = useForm({
-        name: 'Ronald',
-        email: 'ronaldblanco0509@gmail.com',
-        password: '123456',
-        password2: '123456',
+        name: '',
+        email: '',
+        password: '',
+        password2: '',
     });
     const { name, email, password, password2 } = formValues;
 

@@ -54,7 +54,7 @@ describe('Pruebas en RegisterScreen', () => {
         const actions = store.getActions();
         expect(actions[0]).toEqual({
             type: types.setError,
-            payload: 'Email is not valid',
+            payload: 'Name is required',
         });
     });
 
